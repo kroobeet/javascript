@@ -7,4 +7,4 @@
 (Нажмите на ссылку, чтобы посмотреть результат):<br>
 (Click on the link to see the result): <br>
 - [JavaScript 01](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/01/index.html)
-- [JavaScript 02](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/02/index.html)
+- [JavaScript 02](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/02/index.html) (Don't work on preview github. Only on localhost. I'am sorry :c )
