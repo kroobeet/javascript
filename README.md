@@ -38,7 +38,7 @@ function myFunc() {
 
 
 
-[JavaScript 01]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/01/index.html
-[JavaScript 02]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/02/index.html
-[JavaScript 03]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/03/index.html
-[JavaScript 04]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/04/index.html
+[JavaScript 01]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/01/index.html
+[JavaScript 02]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/02/index.html
+[JavaScript 03]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/03/index.html
+[JavaScript 04]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/04/index.html
