@@ -10,6 +10,7 @@
 - [JavaScript 02] (Don't work a preview on github. Only on localhost. I'm sorry :c )
 - [JavaScript 03]
 - [JavaScript 04]
+- [JavaScript 05]
 
 #### Список изменений / List of changes
 - [JavaScript 04] <br>
@@ -42,3 +43,4 @@ function myFunc() {
 [JavaScript 02]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/02/index.html
 [JavaScript 03]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/03/index.html
 [JavaScript 04]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/04/index.html
+[JavaScript 05]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/05/index.html
