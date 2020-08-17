@@ -1,8 +1,10 @@
 # javascript
 
-## Версия проекта: ver 0.0.1
+## Версия / Version: 0.0.1
 
-###Предварительный просмотр<br>
+###Предварительный просмотр / Preview<br>
 
 (Нажмите на ссылку, чтобы посмотреть результат):<br>
-[JavaScript 01](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/01/index.html)
+(Click on the link to see the result): <br>
+- [JavaScript 01](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/01/index.html)
+- [JavaScript 02](http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/02/index.html)
