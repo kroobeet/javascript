@@ -1,8 +1,8 @@
 # javascript
 
-## Версия / Version: 0.0.1
+## Версия / Version: 0.0.2
 
-###Предварительный просмотр / Preview<br>
+### Предварительный просмотр / Preview<br>
 
 (Нажмите на ссылку, чтобы посмотреть результат):<br>
 (Click on the link to see the result): <br>
