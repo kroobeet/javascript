@@ -15,8 +15,8 @@
 #### Список изменений / List of changes
 - [JavaScript 04] <br>
 ```javascript
-// Before
-function myFunc() {
+//Before
+ function myFunc() {
     let x = Number(document.getElementById("x").value);
     let y = Number(document.getElementById("y").value);
     let sum = x + y;
