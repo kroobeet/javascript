@@ -4,6 +4,7 @@
 
 ### Предварительный просмотр / Preview<br>
 
+#### Старые файлы / Old Files
 (Нажмите на ссылку, чтобы посмотреть результат):<br>
 (Click on the link to see the result): <br>
 - [JavaScript 01]
@@ -12,7 +13,7 @@
 - [JavaScript 04]
 - [JavaScript 05]
 
-#### Список изменений / List of changes
+#### Список изменений СТАРЫЙ / List of changes OLD
 - [JavaScript 04] <br>
 ```javascript
 //Before
@@ -39,8 +40,8 @@ function myFunc() {
 
 
 
-[JavaScript 01]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/01/index.html
-[JavaScript 02]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/02/index.html
-[JavaScript 03]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/03/index.html
-[JavaScript 04]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/04/index.html
-[JavaScript 05]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/05/index.html
+[JavaScript 01]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/old_files/01/index.html
+[JavaScript 02]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/old_files/02/index.html
+[JavaScript 03]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/old_files/03/index.html
+[JavaScript 04]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/old_files/04/index.html
+[JavaScript 05]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/old_files/05/index.html
