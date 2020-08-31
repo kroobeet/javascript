@@ -1,6 +1,6 @@
 # javascript
 
-## Версия / Version: v0.0.9
+## Версия / Version: v0.0.10
 
 ### Предварительный просмотр / Preview<br>
 
