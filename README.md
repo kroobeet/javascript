@@ -78,22 +78,22 @@ function myFunc() {
 
 
 
-[Учебник по JavaScript]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_1/index.html
-[Практика 1]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_2/index.html
-[Работа с DOM]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_3/index.html
-[Практика 2]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_4/index.html
-[Некоторые продвинутые вещи]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_5/index.html
-[ES6 1]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_6/index.html
-[Рекомендованное ES6]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_7/index.html
-[Регулярки]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_8/index.html
-[Разное]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9/index.html
-[Работа с канвасом]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_1/index.html
-[Практика 3]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_2/index.html
-[Контекст]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_3/index.html
-[Drag-and-Drop]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_4/index.html
-[ООП]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_5/index.html
-[Практика по ООП]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_6/index.html
-[Практика 4]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_7/index.html
-[ES6 2]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_8/index.html
-[Promise ES6]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/0_9_9/index.html
-[Библиотека jQuery]: http://htmlpreview.github.io/?https://github.com/kroobeet/javascript/blob/master/JS/1_0/index.html
+[Учебник по JavaScript]: https://github.com/kroobeet/javascript/releases/tag/v0.1
+[Практика 1]: https://github.com/kroobeet/javascript/releases/tag/v0.2
+[Работа с DOM]: https://github.com/kroobeet/javascript/releases/tag/v0.3
+[Практика 2]: https://github.com/kroobeet/javascript/releases/tag/v0.4
+[Некоторые продвинутые вещи]: https://github.com/kroobeet/javascript/releases/tag/v0.5
+[ES6 1]: https://github.com/kroobeet/javascript/releases/tag/v0.6
+[Рекомендованное ES6]: https://github.com/kroobeet/javascript/releases/tag/v0.7
+[Регулярки]: https://github.com/kroobeet/javascript/releases/tag/v0.8
+[Разное]: https://github.com/kroobeet/javascript/releases/tag/v0.9
+[Работа с канвасом]: https://github.com/kroobeet/javascript/releases/tag/v0.9.1
+[Практика 3]: https://github.com/kroobeet/javascript/releases/tag/v0.9.2
+[Контекст]: https://github.com/kroobeet/javascript/releases/tag/v0.9.3
+[Drag-and-Drop]: https://github.com/kroobeet/javascript/releases/tag/v0.9.4
+[ООП]: https://github.com/kroobeet/javascript/releases/tag/v0.9.5
+[Практика по ООП]: https://github.com/kroobeet/javascript/releases/tag/v0.9.6
+[Практика 4]: https://github.com/kroobeet/javascript/releases/tag/v0.9.7
+[ES6 2]: https://github.com/kroobeet/javascript/releases/tag/v0.9.8
+[Promise ES6]: https://github.com/kroobeet/javascript/releases/tag/v0.9.9-alpha
+[Библиотека jQuery]: https://github.com/kroobeet/javascript/releases/tag/v0.9.9-beta
