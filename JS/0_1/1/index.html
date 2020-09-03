@@ -8,6 +8,16 @@
     <title>Продвинутая работа с пользовательскими функциями</title>
 </head>
 <body>
-<script src="script.js"></script>
+	<p>Данный скрипт представляет собой запуск функции рекурсии</p>
+	<p>Нажав кнопку запустить - Вам будет предложено ввести любое число</p>
+	<p>В поле 1 введите набор цифр</p>
+	<p>В поле 2 введите число, которое должно получиться в результате суммирования этих чисел с помощью рекурсии</p>
+	<button id="start" onclick="start(true)">Запустить</button>
+	<button id="stop" onclick="start(false)">Остановить</button><br>
+	1. <input type="text" name="num" disabled placeholder="Введите цифры"><br>
+	2. <input type="text" name="total" disabled placeholder="Введите число..">
+
+	<p id="info">Здесь отображается информация о состоянии скрипта</p>
+	<script src="script.js"></script>
 </body>
 </html>
