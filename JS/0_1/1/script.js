@@ -13,7 +13,27 @@
 }*/
 
 
-const num = 241;
+var info = document.getElementById('info');
+var run = document.getElementById('start');
+
+function start (run) {
+	if (run === true) {
+		main();
+	} else if (run === false) {
+		return false;
+	}
+}
+
+function inputData () {
+	document.write('<input type="">')
+}
+
+function main () {
+	document.write('Вызвали Main')
+}
+
+
+/*const num = 241;
 var result = 0;
 var array = [];
 arr = String(num).split('');
@@ -32,4 +52,4 @@ function sumDigit(num) {
 	}
 }
 
-sumDigit(num);
+sumDigit(num);*/
