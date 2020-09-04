@@ -1,11 +1,11 @@
 const input = document.getElementById('inp');
-var str = input.value;
 var resultNum = 0;
 var arr = [];
 
 function elemCalc(elem) {
 	input.value += elem.value;
 	arr.push(elem.value);
+	console.log(checkSymbol());
 	if (!Number(arr[0])) {
 		alert('First only NUMBER');
 		clearValue();
@@ -13,6 +13,7 @@ function elemCalc(elem) {
 }
 
 function del() {
+   	input.value=input.value.replace(/.$/, "");
 	arr.pop();
 }
 
@@ -36,10 +37,10 @@ function nextNum() {
 }
 
 function checkSymbol() {
-	for (let i = 0; i < str.length; i++) {
-		if (Number(str[i]) == false) {
-			var symbol = str[i];
-			return symbol;
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] == '\+' || arr[i] == '\-' || arr[i] == '\*' || arr[i] == '\/') {
+			var symbol = arr[i];
+			return true;
 		} else {
 			i++;
 		}

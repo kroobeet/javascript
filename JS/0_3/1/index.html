@@ -11,33 +11,33 @@
 	<div id="main">
 		<table width="100%" cellpadding="5px">
 			<tr>
-				<td><input type="submit" onclick="elemCalc(this)" value="1"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="2"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="3"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="+"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="1" id="1"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="2" id="2"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="3" id="3"></td>
 			</tr>
 			<tr>
-				<td><input type="submit" onclick="elemCalc(this)" value="4"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="5"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="6"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="-"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="4" id="4"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="5" id="5"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="6" id="6"></td>
+				
 			</tr>
 			<tr>
-				<td><input type="submit" onclick="elemCalc(this)" value="7"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="8"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="9"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="/"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="7" id="7"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="8" id="8"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="9" id="9"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="0" id="0"></td>
 			<tr>
-				<td><input type="submit" onclick="elemCalc(this)" value="0"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="*"></td>
-				<td><input type="submit" onclick="elemCalc(this)" value="**"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="+" id="+"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="-" id="-"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="/" id="/"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="*" id="*"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" onclick="clearValue()" value="C"></td>
 				<td><input type="submit" onclick="del()" value="<"></td>
 			</tr>
 		</table>
-		<input type="text" disabled id="inp"></td>
+		<input type="text" id="inp"></td>
 		<input type="submit" onclick="check(); result();" id="resultBtn" value="=">
 	</div>
 	Результат: <input type="text" disabled id="res" value="!!!">
