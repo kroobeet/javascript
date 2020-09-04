@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+
+#main {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+input {
+	width: 100px;
+	font-size: 1.2em;
+}
+#inp {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+#res {
+	width: 100%
+}
+
+#resultBtn {
+	width: 100%
+}

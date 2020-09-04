@@ -3,19 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Основы работы с DOM</title>
 </head>
 <body>
-	<button onclick="alert('Hello');">Say hello!</button><br><br>
-
-	<button onclick="buttonClick();">Change value input</button>
-	<input type="text" name="" id="input1" value="???"><br><br>
-
-	<button onclick="showInputValue();">Show value input</button>
-	<input type="text" name="" id="input2"><br><br>
-
-	<button onclick="squareNum();">Square number</button>
-	<input type="text" name="" id="input3"><br><br>
+	<h1>Калькулятор</h1>
+	<div id="main">
+		<table width="100%" cellpadding="5px">
+			<tr>
+				<td><input type="submit" onclick="elemCalc(this)" value="1"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="2"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="3"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="+"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" onclick="elemCalc(this)" value="4"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="5"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="6"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="-"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" onclick="elemCalc(this)" value="7"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="8"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="9"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="/"></td>
+			<tr>
+				<td><input type="submit" onclick="elemCalc(this)" value="0"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="*"></td>
+				<td><input type="submit" onclick="elemCalc(this)" value="**"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" onclick="clearValue()" value="C"></td>
+				<td><input type="submit" onclick="del()" value="<"></td>
+			</tr>
+		</table>
+		<input type="text" disabled id="inp"></td>
+		<input type="submit" onclick="check(); result();" id="resultBtn" value="=">
+	</div>
+	Результат: <input type="text" disabled id="res" value="!!!">
 	<script src="script.js"></script>
 </body>
 </html>
