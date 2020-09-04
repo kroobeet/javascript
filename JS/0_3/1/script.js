@@ -1,5 +1,5 @@
 const input = document.getElementById('inp');
-var resultNum = 0;
+var resultat = 0;
 var arr = [];
 
 function elemCalc(elem) {
@@ -8,7 +8,6 @@ function elemCalc(elem) {
 	var symbol = elem.value;
 	var firstSymbol = arr[0];
 	checkFirstInInput(firstSymbol);
-	console.log(getSymbol(symbol));
 }
 
 function check() {
@@ -16,6 +15,7 @@ function check() {
 	var lastSymbol = arr.length-1;
 	checkLastInSymbol(arr[lastSymbol]);
 	alert(arr);
+	result();
 }
 
 
@@ -28,15 +28,6 @@ function getSymbol(symbol) {
 	}
 }
 
-
-// итоговая функция
-function result() {
-
-}
-
-
-
-
 // удалить последний элемент
 function del() {
    	input.value=input.value.replace(/.$/, "");
@@ -48,18 +39,6 @@ function del() {
 function clearValue() {
 	arr = [];
 	input.value = '';
-}
-
-// предыдущее получившееся число
-function prevNum() {
-	for (let i = 0; i < arr.length; i++) {
-		
-	}
-}
-
-// следующее получившееся число
-function nextNum() {
-
 }
 
 // проверить первый символ
@@ -86,4 +65,65 @@ function checkLastInSymbol (lastSymbol) {
 		arr.pop();
 		return false;
 	}
+}
+
+// предыдущее получившееся число
+function prevNum() {
+	var prevNum = '';
+	flag = true;
+	while (flag == true) {
+		if(!getSymbol(arr[0])) {
+			prevNum += arr[0];
+			arr.shift();
+		} else {
+			prevNum = Number(prevNum);
+			nextNum();
+			switch (symbol) {
+				case '+':
+					resultat = prevNum + nextNum;
+					console.log(result);
+					break;
+				case '*':
+					resultat = prevNum * nextNum;
+					console.log(result);
+					break;
+				case '/':
+					resultat = prevNum / nextNum;
+					console.log(result);
+					break;
+				case '-':
+					resultat = prevNum - nextNum;
+					console.log(result);
+					break;
+				default:
+					// statements_def
+					console.log('DEFAULT');
+					break;
+			}
+			flag = false;
+		}
+	}
+	return resultat;
+}
+
+// следующее получившееся число
+function nextNum() {
+	var nextNum = '';
+	flag = true;
+	while (flag == true) {
+		if(!getSymbol(arr[1])) {
+			nextNum += arr[1];
+			arr.shift();
+		} else {
+			nextNum = Number(nextNum);
+			flag = false;
+			return nextNum;
+		}
+	}
+}
+
+// итоговая функция
+function result() {
+	prevNum();
+	document.getElementById('res').value = resultat;
 }
