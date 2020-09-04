@@ -5,49 +5,85 @@ var arr = [];
 function elemCalc(elem) {
 	input.value += elem.value;
 	arr.push(elem.value);
-	console.log(checkSymbol());
-	if (!Number(arr[0])) {
-		alert('First only NUMBER');
-		clearValue();
+	var symbol = elem.value;
+	var firstSymbol = arr[0];
+	checkFirstInInput(firstSymbol);
+	console.log(getSymbol(symbol));
+}
+
+function check() {
+	alert(arr);
+	var lastSymbol = arr.length-1;
+	checkLastInSymbol(arr[lastSymbol]);
+	alert(arr);
+}
+
+
+// проверить символ на
+function getSymbol(symbol) {
+	if (symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/') {
+		return symbol;
+	} else {
+		return false;
 	}
 }
 
+
+// итоговая функция
+function result() {
+
+}
+
+
+
+
+// удалить последний элемент
 function del() {
    	input.value=input.value.replace(/.$/, "");
 	arr.pop();
 }
 
+
+// очистить полностью
 function clearValue() {
 	arr = [];
 	input.value = '';
 }
 
-function check() {
-	alert(arr);
-}
-
+// предыдущее получившееся число
 function prevNum() {
-	for (let i = 0; i < str.length; i++) {
+	for (let i = 0; i < arr.length; i++) {
 		
 	}
 }
 
+// следующее получившееся число
 function nextNum() {
 
 }
 
-function checkSymbol() {
-	for (let i = 0; i < arr.length; i++) {
-		if (arr[i] == '\+' || arr[i] == '\-' || arr[i] == '\*' || arr[i] == '\/') {
-			var symbol = arr[i];
-			return true;
-		} else {
-			i++;
-		}
+// проверить первый символ
+function checkFirstInInput (firstSymbol) {
+	var num = Number(firstSymbol);
+	if (Number(num) >= 0 || num <= 9) {
+		return true;
+	} else {
+		alert('Первый символ должен быть числом');
+		input.value=input.value.replace(/.$/, "");
+		arr.pop();
+		return false;
 	}
-	return false;
 }
 
-function result() {
-	
+// проверить последний символ
+function checkLastInSymbol (lastSymbol) {
+	var num = Number(lastSymbol);
+	if (Number(num) >= 0 || num <= 9) {
+		return true;
+	} else {
+		alert('Последний символ должен быть числом');
+		input.value=input.value.replace(/.$/, "");
+		arr.pop();
+		return false;
+	}
 }
