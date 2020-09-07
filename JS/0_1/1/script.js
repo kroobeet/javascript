@@ -13,25 +13,37 @@
 }*/
 
 
-var info = document.getElementById('info');
-var run = document.getElementById('start');
+program();
+
+function program() {
+	document.write('<p>Данный скрипт представляет собой запуск функции рекурсии</p>');
+	document.write('<p>Нажмите кнопку "Запустить"</p>');
+	document.write('<button onclick="start(1)">Запустить</button>');
+}
 
 function start (run) {
-	if (run === true) {
+	if (run == true) {
 		main();
-	} else if (run === false) {
-		return false;
+	} else if (run == false) {
+		alert('Программа остановилась');
+		return run;
 	}
 }
 
-function inputData () {
-	document.write('<input type="">')
+function stop() {
+	program();
 }
 
 function main () {
-	document.write('Вызвали Main')
-}
+	alert('Вызвалась функция main()');
+	document.write('<button onclick="stop()">Остановить</button></br>')
+	document.write('<p>В поле 1 введите набор цифр</p>');
+	document.write('<p>В поле 2 введите число, которое должно получиться в результате суммирования этих чисел с помощью рекурсии</p>');
+	document.write('1. <input type="text" id="num" placeholder="Введите цифры"><br>');
+	document.write('2. <input type="text" id="total" placeholder="Введите число..">');
 
+
+}
 
 /*const num = 241;
 var result = 0;
