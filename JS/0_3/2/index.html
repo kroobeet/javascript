@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Работа с элементами HTML страницы</title>
+</head>
+<body>
+	<p id="changeText1">При нажатии на кнопку текст в абзаце поменяется</p>
+	<input type="submit" onclick="changeText()" value="Нажми на меня">
+
+	<p id="changeText2">При нажатии на кнопку текст в абзаце поменятеся</p>
+	<input type="submit" onclick="changeTextAndGoToHeader()" value="Нажми на меня">
+
+	<p id="changeText3">При нажатии на кнопку текст в абзаце станет h3, но текст не поменятеся</p>
+	<input type="submit" onclick="saveTextAndGoToHeader()" value="Нажми на меня">
+	<br>
+	<br>
+
+	<input type="text" id="firstNum"> + <input type="text" id="secondNum"> = <span id="result"></span><br><br>
+	<input type="submit" onclick="sumNumber()" value="Нажмите, чтобы сложить">
+
+	<p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+	<p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+	<p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+	<p>При нажатии на кнопку текст в каждом абзаце поменяется.</p>
+	<h2>А я h2 и не поменяюсь!</h2>
+	<input type="submit" onclick="multiChangeText()" value="Нажми на меня!">
+
+	<h2 class="www">Заголовок с классом www.</h2>
+	<p class="www">Абзац с классом www.</p>
+	<p class="www">Абзац с классом www.</p>
+	<p>Просто абзац, не меняется</p>
+	<input type="submit" onclick="changeTextOnSerialNumber()" value="Нажми на меня!">
+
+	<h2 class="sss">Заголовок с классом www.</h2>
+	<p class="sss">Абзац с классом www.</p>
+	<p class="sss">Абзац с классом www.</p>
+	<p>Просто абзац, не меняется</p>
+	<input type="submit" onclick="changeTextOnSerialNumberWithHelpQuerySelectorAll()" value="Нажми на меня!">
+
+	<p class="my-class old-class" id="manupulationClass">Абзац с class="my-class".</p>
+	<input type="submit" onclick="getAttr()" value="Нажми и я выведу класс абзаца."><br>
+	<input type="submit" onclick="delAttr()" value="Нажми и я удалю class для абзаца"><br>
+	<input type="submit" onclick="changeAttr()" value="Нажми и я изменю атрибут class для абзаца на 'new-class'">
+	<br><br>
+
+	<input id="input" type="text" onkeyup="liveChangeInput(this)" placeholder="Введи сюда текст..."><span id="changeSpan"></span><br><br>
+
+	<a href="http://google.ru">Ссылка 1</a><br>
+	<a href="http://tut.by">Ссылка 2</a><br>
+	<a href="http://yandex.ru">Ссылка 3</a><br>
+	<input type="submit" value="Нажми на меня!" onclick="addHrefValue()">
+	<br><br>
+
+	<p id="func">При нажатии на кнопку текст в абзаце поменяется.</p>
+	<input type="submit" value="Нажмите на меня!" onclick="func(this)" id="btn">
+
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<p class="serial-number">Абзац с текстом.</p>
+	<input type="submit" value="Нажми на меня!" onclick="serialNumber()">
+
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<p class="add-serial-number">Абзац с текстом.</p>
+	<input type="submit" value="Нажми на меня!" onclick="addSerialNumber()">
+	<script src="script.js"></script>
+</body>
+</html>
